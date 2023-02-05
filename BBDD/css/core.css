@@ -1,0 +1,16 @@
+
+body {
+    font: 62.5% "Lucida Grande",Helvetica,Verdana,Arial;
+    padding: 0 10px;
+}
+p {
+    margin: 10px 0;
+}
+.sr {
+    height: 1px;
+    left: -9999em;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}

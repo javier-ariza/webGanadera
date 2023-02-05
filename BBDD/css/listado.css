@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+.main{
+width:1000px;
+margin:0 auto;
+}
+
+.depto{
+width:300px;
+float:left;
+height: 150px;
+margin:10px;
+border:1px #dedede solid;
+padding:5px;
+background-image:url('../images/corner.jpg');
+background-position:bottom right;
+background-repeat:no-repeat;
+}
+
+.depto {
+margin-bottom:6px;}
+
+.depto img{
+float:left;
+margin-right:10px;
+border:1px solid #dedede;}
+
+.depto .descripcion{font-size:10px; font-family:Geneva, Arial, Helvetica, sans-serif}

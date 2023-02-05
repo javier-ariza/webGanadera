@@ -1,0 +1,39 @@
+/*
+ * General XHTML styles
+ * Source: http://www.csskarma.com/lab/contactForm/
+ -----------------------*/
+
+
+/*
+ * Form elements
+ -----------------------*/
+@import "reset.css";
+@import "core.css";
+@import "cmxform.css";
+
+
+
+
+
+input:focus,textarea:focus, select:focus {
+	background-color: #ffc;
+}
+
+
+.error {
+	display: block;
+	background-color: yellow;
+	color: red;
+	font-size: 150%;
+	font-weight: bold;
+	width: 940px;
+	padding: 10px;
+	margin: 10px;
+}
+
+button {
+	display: block;
+	clear: both;
+	margin: 1px auto 1px auto;
+	width: 100px;
+}

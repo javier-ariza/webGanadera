@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+html {
+	font-family: verdana, sans-serif;
+	background-color: #D8D8D8;
+}
+
+body {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo, footer {
+	color:#200f08 ;
+	background:#ddd3bf;
+	
+	/* Gradiente */
+	background-image: -moz-linear-gradient(top, #ddd3bf, #bcae91); /* FF3.6 */
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #ddd3bf),color-stop(1, #bcae91)); /* Saf4+, Chrome *
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd3bf', EndColorStr='#bcae91')"; /* IE8 */
+	
+	/*Round corners*/
+	-moz-border-radius: 12px; /* FF1+ */
+	-webkit-border-radius: 12px; /* Saf3+, Chrome */
+	border-radius: 12px; /* Opera 10.5, IE 9 */
+}
+
+#logo, footer, #content {
+	width:940px;
+	padding: 10px;
+	margin: 10px;
+}
+
+#logo {
+	height: 60px;
+}
+
+#logo img {
+	display: inline;
+	width: 150px;
+	height: 60px;
+	border: 0;
+	vertical-align: middle;	
+}
+#logo a {
+	display: inline;
+	font-size: 150%;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0B0B3B;
+}
+
+
+#content {
+	background-color: white;
+}
+footer {
+	clear: both;
+	height: 100px;
+
+
+}
+
+h1 {
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	text-shadow: -1px -1px white, 1px 1px #333;
+}
+
+
+
+ul li {
+	color: black;
+	list-style: none;
+}
+
+ul li:before {
+	color: orange;
+	content: "\25A0";
+	font-size: 1em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
+  	padding-right:.25em; /* give the bullet some padding from the text Make sure to use em*/
+  	
+}
+
+a {
+	color: orange;
+}
+a:visited {
+	color: gray;
+}
